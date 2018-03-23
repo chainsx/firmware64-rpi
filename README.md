@@ -15,6 +15,7 @@
 - [X] Wirless Lan (WLAN)
 - [X] Bluetooth (BT)
 - [X] brcm80211
+- [X] KVM
 - [X] Chrome Virtual Divironment
 - [X] adi
 - [X] atheros
