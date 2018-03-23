@@ -15,7 +15,7 @@
 - [X] Wirless Lan (WLAN)
 - [X] Bluetooth (BT)
 - [X] brcm80211
-- [X] Chrome Virtual Driver
+- [X] Chrome Virtual Divironment
 - [X] adi
 - [X] atheros
 - [X] bnx2x
