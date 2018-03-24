@@ -1,5 +1,5 @@
 # 4.16内核
-### 适用于除openSUSE以外的所有树莓派64位系统
+### 适用于除openSUSE以外的所有树莓派3的系统
 
 ## 内核安装方法
 
@@ -28,3 +28,5 @@
 - [X] iwlwifi
 - [X] myricom
 - [X] netxen
+
+如果install.sh在你的系统上出现问题了的话，请[手动安装内核](https://github.com/chainsx/firmware64-rpi/wiki/手动安装内核)
