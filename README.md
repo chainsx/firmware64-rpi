@@ -16,7 +16,7 @@
 - [X] Bluetooth (BT)
 - [X] brcm80211
 - [X] KVM
-- [X] Chrome Virtual Divironment
+- [X] Chrome Virtual Environment
 - [X] adi
 - [X] atheros
 - [X] bnx2x
