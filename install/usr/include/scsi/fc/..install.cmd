@@ -1,0 +1,1 @@
+cmd_linux/include/scsi/fc/.install := /bin/bash scripts/headers_install.sh linux/include/scsi/fc ./include/uapi/scsi/fc fc_fs.h fc_els.h fc_gs.h fc_ns.h; /bin/bash scripts/headers_install.sh linux/include/scsi/fc ./include/generated/uapi/scsi/fc ; touch linux/include/scsi/fc/.install
