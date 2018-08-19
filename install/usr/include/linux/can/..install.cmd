@@ -1,1 +1,0 @@
-cmd_../kernel/usr/include/linux/can/.install := /bin/bash scripts/headers_install.sh ../kernel/usr/include/linux/can ./include/uapi/linux/can bcm.h vxcan.h gw.h raw.h netlink.h error.h; /bin/bash scripts/headers_install.sh ../kernel/usr/include/linux/can ./include/generated/uapi/linux/can ; touch ../kernel/usr/include/linux/can/.install

@@ -1,1 +1,0 @@
-cmd_../kernel/usr/include/linux/iio/.install := /bin/bash scripts/headers_install.sh ../kernel/usr/include/linux/iio ./include/uapi/linux/iio events.h types.h; /bin/bash scripts/headers_install.sh ../kernel/usr/include/linux/iio ./include/generated/uapi/linux/iio ; touch ../kernel/usr/include/linux/iio/.install

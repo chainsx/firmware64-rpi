@@ -1,1 +1,0 @@
-cmd_../kernel/usr/include/linux/netfilter_arp/.install := /bin/bash scripts/headers_install.sh ../kernel/usr/include/linux/netfilter_arp ./include/uapi/linux/netfilter_arp arp_tables.h arpt_mangle.h; /bin/bash scripts/headers_install.sh ../kernel/usr/include/linux/netfilter_arp ./include/generated/uapi/linux/netfilter_arp ; touch ../kernel/usr/include/linux/netfilter_arp/.install

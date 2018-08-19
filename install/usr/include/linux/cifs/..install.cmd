@@ -1,1 +1,0 @@
-cmd_../kernel/usr/include/linux/cifs/.install := /bin/bash scripts/headers_install.sh ../kernel/usr/include/linux/cifs ./include/uapi/linux/cifs cifs_mount.h; /bin/bash scripts/headers_install.sh ../kernel/usr/include/linux/cifs ./include/generated/uapi/linux/cifs ; touch ../kernel/usr/include/linux/cifs/.install

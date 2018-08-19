@@ -1,1 +1,0 @@
-cmd_../kernel/usr/include/video/.install := /bin/bash scripts/headers_install.sh ../kernel/usr/include/video ./include/uapi/video uvesafb.h edid.h sisfb.h; /bin/bash scripts/headers_install.sh ../kernel/usr/include/video ./include/generated/uapi/video ; touch ../kernel/usr/include/video/.install
