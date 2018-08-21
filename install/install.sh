@@ -2,7 +2,7 @@
 # Powered by chainsx
 DIR=$(pwd)
 echo "Are you sure to install this 64-Bit firmware?"
-echo -n "Please type (yes) to continue"
+echo -n "Please type (yes) to continue \n"
 read A
 if [ $A = "yes" ];then
 	echo "Backup old boot-files"
