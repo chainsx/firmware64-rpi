@@ -19,9 +19,9 @@ if [ $A = "yes" ];then
 	echo "Install modules"
 	cp -rfp $DIR/lib/modules/* /lib/modules/
 	echo "OK"
-	echo "Install firmware"
-	cp -rfp $DIR/lib/firmware/* /lib/firmware/
-	echo "OK"
+#	echo "Install firmware"
+#	cp -rfp $DIR/lib/firmware/* /lib/firmware/
+#	echo "OK"
 	echo "Install kernel_headers"
 	cp -rfp $DIR/usr/include/* /usr/include/
 	echo "OK"
