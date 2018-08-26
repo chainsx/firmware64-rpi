@@ -1,1 +1,0 @@
-cmd_linux/include/linux/raid/.install := /bin/bash scripts/headers_install.sh linux/include/linux/raid ./include/uapi/linux/raid md_u.h md_p.h; /bin/bash scripts/headers_install.sh linux/include/linux/raid ./include/generated/uapi/linux/raid ; touch linux/include/linux/raid/.install
