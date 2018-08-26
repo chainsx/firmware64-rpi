@@ -1,0 +1,1 @@
+cmd_linux/include/mtd/.install := /bin/bash scripts/headers_install.sh linux/include/mtd ./include/uapi/mtd ubi-user.h nftl-user.h mtd-abi.h mtd-user.h inftl-user.h; /bin/bash scripts/headers_install.sh linux/include/mtd ./include/generated/uapi/mtd ; touch linux/include/mtd/.install

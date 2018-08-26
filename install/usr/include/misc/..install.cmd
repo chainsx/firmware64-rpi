@@ -1,0 +1,1 @@
+cmd_linux/include/misc/.install := /bin/bash scripts/headers_install.sh linux/include/misc ./include/uapi/misc cxl.h; /bin/bash scripts/headers_install.sh linux/include/misc ./include/generated/uapi/misc ; touch linux/include/misc/.install

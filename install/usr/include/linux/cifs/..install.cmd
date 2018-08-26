@@ -1,0 +1,1 @@
+cmd_linux/include/linux/cifs/.install := /bin/bash scripts/headers_install.sh linux/include/linux/cifs ./include/uapi/linux/cifs cifs_mount.h; /bin/bash scripts/headers_install.sh linux/include/linux/cifs ./include/generated/uapi/linux/cifs ; touch linux/include/linux/cifs/.install

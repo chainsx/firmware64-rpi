@@ -1,0 +1,1 @@
+cmd_linux/include/linux/isdn/.install := /bin/bash scripts/headers_install.sh linux/include/linux/isdn ./include/uapi/linux/isdn capicmd.h; /bin/bash scripts/headers_install.sh linux/include/linux/isdn ./include/generated/uapi/linux/isdn ; touch linux/include/linux/isdn/.install
