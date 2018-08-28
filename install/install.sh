@@ -12,7 +12,7 @@ if [ $A = "yes" ];then
 	echo "Install bootloader"
 	cp -rfp $DIR/../bootloader/* /boot
 	echo "Install Image,dtbs"
-	cp -rfp $DIR/boot/* /boot/
+	cp -rfp $DIR/boot/* /boot/ && rm /boot/cmdline.txt && cp /boot.old/cmdline.txt /boot
 	#echo "Delete old modules"
 	#rm -rf $DIR//lib/modules/*
 	#echo "OK"
