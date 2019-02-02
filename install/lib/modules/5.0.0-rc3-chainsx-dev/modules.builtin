@@ -52,6 +52,7 @@ kernel/drivers/base/regmap/regmap-spi.ko
 kernel/drivers/base/regmap/regmap-mmio.ko
 kernel/drivers/block/brd.ko
 kernel/drivers/block/loop.ko
+kernel/drivers/bus/sunxi-rsb.ko
 kernel/drivers/char/ttyprintk.ko
 kernel/drivers/char/raw.ko
 kernel/drivers/char/broadcom/vcio.ko
