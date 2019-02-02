@@ -14,6 +14,8 @@
 ### 支持的芯片
 
 [X] Broadcom 2837 .
+
+
 [X] Amlogic family .
 
 
