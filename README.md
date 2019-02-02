@@ -11,5 +11,10 @@
 #### 重启
 `reboot`
 
+### 支持的芯片
+
+[X] Broadcom 2837 .
+[X] Amlogic family .
+
 
 如果install.sh在你的系统上出现问题了的话，请[手动安装内核](https://github.com/chainsx/firmware64-rpi/wiki/手动安装内核)
