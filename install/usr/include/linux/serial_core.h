@@ -281,4 +281,7 @@
 /* MediaTek BTIF */
 #define PORT_MTK_BTIF	117
 
+/* RDA UART */
+#define PORT_RDA	118
+
 #endif /* LINUX_SERIAL_CORE_H */
