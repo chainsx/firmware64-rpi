@@ -1,1 +1,1 @@
-cmd_../kernel/include/misc/.install := /bin/bash scripts/headers_install.sh ../kernel/include/misc ./include/uapi/misc cxl.h ocxl.h; /bin/bash scripts/headers_install.sh ../kernel/include/misc ./include/generated/uapi/misc ; touch ../kernel/include/misc/.install
+cmd_/root/firm//include/misc/.install := /bin/bash scripts/headers_install.sh /root/firm//include/misc ./include/uapi/misc cxl.h ocxl.h fastrpc.h habanalabs.h; /bin/bash scripts/headers_install.sh /root/firm//include/misc ./include/generated/uapi/misc ; touch /root/firm//include/misc/.install

@@ -1,1 +1,1 @@
-cmd_../kernel/include/video/.install := /bin/bash scripts/headers_install.sh ../kernel/include/video ./include/uapi/video uvesafb.h edid.h sisfb.h; /bin/bash scripts/headers_install.sh ../kernel/include/video ./include/generated/uapi/video ; touch ../kernel/include/video/.install
+cmd_/root/firm//include/video/.install := /bin/bash scripts/headers_install.sh /root/firm//include/video ./include/uapi/video uvesafb.h edid.h sisfb.h; /bin/bash scripts/headers_install.sh /root/firm//include/video ./include/generated/uapi/video ; touch /root/firm//include/video/.install
