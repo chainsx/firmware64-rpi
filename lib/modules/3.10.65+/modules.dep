@@ -1,0 +1,38 @@
+kernel/crypto/crypto_user.ko:
+kernel/crypto/af_alg.ko:
+kernel/crypto/algif_hash.ko: kernel/crypto/af_alg.ko
+kernel/crypto/algif_skcipher.ko: kernel/crypto/af_alg.ko
+kernel/crypto/algif_rng.ko: kernel/crypto/af_alg.ko
+kernel/drivers/pwm/pwm-test.ko:
+kernel/drivers/char/timer_test/sunxi_timer_test.ko:
+kernel/drivers/net/wireless/rtl8723bs/8723bs.ko:
+kernel/drivers/net/wireless/rtl8189fs/8189fs.ko:
+kernel/drivers/net/wireless/rtl8189es/8189es.ko:
+kernel/drivers/net/wireless/rtl8188eu/8188eu.ko:
+kernel/drivers/net/wireless/rtl8192eu/8192eu.ko:
+kernel/drivers/net/wireless/rtl8723bu/8723bu.ko:
+kernel/drivers/net/wireless/rtl8822bs/88x2bs.ko:
+kernel/drivers/net/wireless/xradio/xradio_wlan.ko:
+kernel/drivers/net/wireless/bcmdhd/bcmdhd.ko:
+kernel/drivers/input/keyboard/sunxi-keyboard.ko:
+kernel/drivers/input/sw-device.ko:
+kernel/drivers/media/v4l2-core/videobuf2-core.ko:
+kernel/drivers/media/v4l2-core/videobuf2-memops.ko:
+kernel/drivers/media/v4l2-core/videobuf2-vmalloc.ko: kernel/drivers/media/v4l2-core/videobuf2-memops.ko
+kernel/drivers/media/v4l2-core/videobuf2-dma-contig.ko: kernel/drivers/media/v4l2-core/videobuf2-memops.ko
+kernel/drivers/media/platform/sunxi-vin/modules/sensor/gc2035.ko: kernel/drivers/media/platform/sunxi-vin/vin_io.ko
+kernel/drivers/media/platform/sunxi-vin/modules/actuator/actuator.ko:
+kernel/drivers/media/platform/sunxi-vin/modules/actuator/ad5820_act.ko: kernel/drivers/media/platform/sunxi-vin/modules/actuator/actuator.ko kernel/drivers/media/platform/sunxi-vin/vin_io.ko
+kernel/drivers/media/platform/sunxi-vin/modules/actuator/dw9714_act.ko: kernel/drivers/media/platform/sunxi-vin/modules/actuator/actuator.ko kernel/drivers/media/platform/sunxi-vin/vin_io.ko
+kernel/drivers/media/platform/sunxi-vin/modules/actuator/ov8825_act.ko: kernel/drivers/media/platform/sunxi-vin/modules/actuator/actuator.ko kernel/drivers/media/platform/sunxi-vin/vin_io.ko
+kernel/drivers/media/platform/sunxi-vin/vin_io.ko:
+kernel/drivers/media/platform/sunxi-vin/vin_v4l2.ko: kernel/drivers/media/v4l2-core/videobuf2-dma-contig.ko kernel/drivers/media/v4l2-core/videobuf2-memops.ko kernel/drivers/media/v4l2-core/videobuf2-core.ko kernel/drivers/media/platform/sunxi-vin/vin_io.ko
+kernel/drivers/media/usb/uvc/uvcvideo.ko: kernel/drivers/media/v4l2-core/videobuf2-vmalloc.ko kernel/drivers/media/v4l2-core/videobuf2-memops.ko kernel/drivers/media/v4l2-core/videobuf2-core.ko
+kernel/drivers/media/usb/gspca/gspca_main.ko:
+kernel/drivers/bluetooth/rtk_btusb.ko:
+kernel/drivers/bluetooth/bcm_btlpm_rc.ko:
+kernel/drivers/bluetooth/rtl_btlpm.ko:
+kernel/drivers/crypto/sunxi/ss.ko:
+kernel/drivers/gator/gator.ko:
+kernel/net/core/pktgen.ko:
+kernel/security/fivm/fivm.ko:
