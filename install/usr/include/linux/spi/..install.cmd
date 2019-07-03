@@ -1,1 +1,0 @@
-cmd_/root/firm//include/linux/spi/.install := /bin/bash scripts/headers_install.sh /root/firm//include/linux/spi ./include/uapi/linux/spi spidev.h; /bin/bash scripts/headers_install.sh /root/firm//include/linux/spi ./include/generated/uapi/linux/spi ; touch /root/firm//include/linux/spi/.install
