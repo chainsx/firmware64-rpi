@@ -27,7 +27,7 @@ if [ $A = "yes" ];then
 	echo "OK"
 	echo "Install 64-Bit VC4 Built by chainsx"
 	cp -rfp $DIR/opt /opt
-	cp -rfp /opt/vc/bin/* /usr/bin
+	cp -rfp /opt/vc/* /usr
 	echo "Note, 64-Bit VC4 Was Installed In /opt"
 	#echo "Configure files"
 	#sed '/^kernel/'d /boot/config.txt
