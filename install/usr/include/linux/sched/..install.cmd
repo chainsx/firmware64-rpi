@@ -1,0 +1,1 @@
+cmd_/root/firm//include/linux/sched/.install := /bin/bash scripts/headers_install.sh /root/firm//include/linux/sched ./include/uapi/linux/sched types.h; /bin/bash scripts/headers_install.sh /root/firm//include/linux/sched ./include/generated/uapi/linux/sched ; touch /root/firm//include/linux/sched/.install

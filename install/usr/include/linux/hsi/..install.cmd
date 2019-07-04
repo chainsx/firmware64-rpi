@@ -1,0 +1,1 @@
+cmd_/root/firm//include/linux/hsi/.install := /bin/bash scripts/headers_install.sh /root/firm//include/linux/hsi ./include/uapi/linux/hsi hsi_char.h cs-protocol.h; /bin/bash scripts/headers_install.sh /root/firm//include/linux/hsi ./include/generated/uapi/linux/hsi ; touch /root/firm//include/linux/hsi/.install

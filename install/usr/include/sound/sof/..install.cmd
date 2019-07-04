@@ -1,0 +1,1 @@
+cmd_/root/firm//include/sound/sof/.install := /bin/bash scripts/headers_install.sh /root/firm//include/sound/sof ./include/uapi/sound/sof abi.h fw.h header.h tokens.h eq.h tone.h manifest.h trace.h; /bin/bash scripts/headers_install.sh /root/firm//include/sound/sof ./include/generated/uapi/sound/sof ; touch /root/firm//include/sound/sof/.install

@@ -1,0 +1,1 @@
+cmd_/root/firm//include/linux/raid/.install := /bin/bash scripts/headers_install.sh /root/firm//include/linux/raid ./include/uapi/linux/raid md_u.h md_p.h; /bin/bash scripts/headers_install.sh /root/firm//include/linux/raid ./include/generated/uapi/linux/raid ; touch /root/firm//include/linux/raid/.install

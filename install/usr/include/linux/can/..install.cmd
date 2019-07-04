@@ -1,0 +1,1 @@
+cmd_/root/firm//include/linux/can/.install := /bin/bash scripts/headers_install.sh /root/firm//include/linux/can ./include/uapi/linux/can bcm.h vxcan.h gw.h raw.h netlink.h error.h; /bin/bash scripts/headers_install.sh /root/firm//include/linux/can ./include/generated/uapi/linux/can ; touch /root/firm//include/linux/can/.install

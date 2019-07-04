@@ -1,0 +1,1 @@
+cmd_/root/firm//include/linux/wimax/.install := /bin/bash scripts/headers_install.sh /root/firm//include/linux/wimax ./include/uapi/linux/wimax i2400m.h; /bin/bash scripts/headers_install.sh /root/firm//include/linux/wimax ./include/generated/uapi/linux/wimax ; touch /root/firm//include/linux/wimax/.install
