@@ -1,1 +1,0 @@
-cmd_/root/firm//include/linux/isdn/.install := /bin/bash scripts/headers_install.sh /root/firm//include/linux/isdn ./include/uapi/linux/isdn capicmd.h; /bin/bash scripts/headers_install.sh /root/firm//include/linux/isdn ./include/generated/uapi/linux/isdn ; touch /root/firm//include/linux/isdn/.install
