@@ -19,3 +19,8 @@
 
 
 如果install.sh在你的系统上出现问题了的话，请[手动安装内核](https://github.com/chainsx/firmware64-rpi/wiki/手动安装内核)
+
+
+内核打包
+转到[此页面](https://github.com/chainsx/firmware64-rpi/releases)
+注意：该deb安装文件不含vc4，安装vc4使用以上方法。
