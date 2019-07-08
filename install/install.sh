@@ -8,6 +8,9 @@ if [ $A = "yes" ];then
 	echo "Backup old boot-files"
 	mkdir /boot.old
 	cp -rfp /boot/* /boot.old
+        echo "Remount boot partition"
+        umount /dev/mmcblk0p1
+        mount /dev/mmcblk0p1 /boot
 	echo "Install new boot-files"
 	echo "Install bootloader"
 	cp -rfp $DIR/../bootloader/* /boot
